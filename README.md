@@ -10,7 +10,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Este projeto foi desenvolvido utilizando a API aberta do GitHub, que permite ao usuário buscar por organizações a fim de listar seus repositórios.
 
 ## 📒 Como Usar
-Para executar o projeto é necessário [instalar o yarn](https://classic.yarnpkg.com/pt-BR/docs/install/#windows-stable) e executar o comando "yarn start".
+Executar os comandos:
+
+"yarn" para instalar dependencias necessárias.
+"yarn start" para executar o projeto.
+
 
 ## 📌 Processo de desenvolvimento
 
