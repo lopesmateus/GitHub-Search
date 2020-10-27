@@ -12,9 +12,9 @@ Este projeto foi desenvolvido utilizando a API aberta do GitHub, que permite ao 
 ## 📒 Como Usar
 Executar os comandos:
 
-"yarn" para instalar dependencias necessárias.
+[yarn]() para instalar dependências necessárias.
 
-"yarn start" para executar o projeto.
+[yarn start]() para executar o projeto.
 
 
 ## 📌 Processo de desenvolvimento
