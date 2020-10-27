@@ -13,6 +13,7 @@ Este projeto foi desenvolvido utilizando a API aberta do GitHub, que permite ao 
 Executar os comandos:
 
 "yarn" para instalar dependencias necessárias.
+
 "yarn start" para executar o projeto.
 
 
