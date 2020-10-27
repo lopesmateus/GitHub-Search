@@ -1,0 +1,165 @@
+.organizationCard{
+    width: 100%;
+    min-width: 148px;
+    min-height: 140px;
+    margin: 0px 20px 20px;
+    background: rgb(245, 245, 245);
+    padding: 20px 0px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+}
+
+.logoCard{
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.organizationName {
+    font-size: 24px;
+    margin: 12px 0px;
+    color: black;
+    margin-left: 10px;
+}
+
+.organizationDescription {
+    font-size: 16px;
+    line-height: 1.4em;
+    color: #424242;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.orgs {
+    margin-left: 10px;
+}
+
+.imageWrapper {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.organizationImage {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.orgsCentered {
+    margin-left: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.orgInfo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 6px 20px;
+}
+
+.orgInfo div {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 6px 20px;
+}
+
+.orgsCentered h2 {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.orgsCentered div img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.repositoryLink {
+    margin-top: 20px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: #7CBAE6;
+    text-align: center;
+    text-decoration: none !important;
+    color: white;
+    font-weight: 700;
+    height: 40px;
+}
+
+.repositoryLink:hover {
+    background-color: #2f9be7;
+    color: white;
+}
+
+.orgsCentered div h2 {
+    font-size: 18px;
+    line-height: 1.4em;
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.orgsCentered img {
+    width: 170px;
+    height: 170px;
+}
+
+.organizationCardRepo {
+    display: flex;
+    width: 100%;
+    max-width: 700px;
+    height: 300px ;
+    min-height: 140px;
+    margin: 0px auto 20px;
+    background: rgb(245, 245, 245);
+    padding: 20px 0px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+}
+
+@media (max-width: 600px) {
+    .organizationCardRepo {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .orgInfo {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.organizationNameRepo {
+    font-size: 36px;
+    margin: 12px 0px;
+    color: black;
+    margin-left: 20px;
+}
+
+.organizationDescriptionRepo {
+    font-size: 16px;
+    line-height: 1.4em;
+    color: #424242;
+    font-weight: 400;
+    margin-left: 20px;
+    width: 80%;
+}
